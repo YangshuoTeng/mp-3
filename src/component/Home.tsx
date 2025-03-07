@@ -37,15 +37,6 @@ const StyledParagraph = styled.p`
     font-size: calc(2px + 2vw);
 `
 
-const StyledImage = styled.img`
-    height: auto;
-    max-width: 60%;
-    margin: 1vh 1vw;
-    transform: scale(1);
-    
-    @media screen and (max-width: 900px) {
-        margin: 1vh auto;}
-`
 
 export default function Home() {
     return (
