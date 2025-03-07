@@ -54,10 +54,10 @@ export default function Hobby() {
                 so let me show you some of my favorite foods.
             </StyledDescription>
             <StyledWrapper>
-                <StyledImage src="/public/BBQ.jpeg" alt="BBQ"/>
-                <StyledImage src="/public/greek meat platter.jpeg" alt="greek meat platter"/>
-                <StyledImage src="/public/Fish and Chips.jpeg" alt="Fish and Chips"/>
-                <StyledImage src="/public/Steak.jpeg" alt="Steak"/>
+                <StyledImage src="/BBQ.jpeg" alt="BBQ"/>
+                <StyledImage src="/greek meat platter.jpeg" alt="greek meat platter"/>
+                <StyledImage src="/Fish and Chips.jpeg" alt="Fish and Chips"/>
+                <StyledImage src="/Steak.jpeg" alt="Steak"/>
             </StyledWrapper>
         </StyledMain>
     )

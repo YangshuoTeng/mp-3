@@ -54,9 +54,9 @@ export default function Certifications() {
 
 
                 <StyledWrapper>
-                    <StyledImg src="/public/Durham.jpeg"
+                    <StyledImg src="/Durham.jpeg"
                          alt="a certificate for yangshuo teng for participating in the economics essay competition from Durham University"/>
-                    <StyledImg src="/public/Harvard.jpeg"
+                    <StyledImg src="/Harvard.jpeg"
                          alt="a certificate for yangshuo teng for completing an online course from Harvard University"/>
 
             </StyledWrapper>
