@@ -52,9 +52,10 @@ export default function Home() {
             <StyledMain>
                 <StyledTitle>Home</StyledTitle>
                 <StyledWrapper>
-                    <img src= "/Selfie.png" alt="" />
+                    <img src="/public/Selfie.png"/>
                     <StyledParagraph>
-                        My name is Yangshuo Teng and you can call me Yang (because most people cannot pronounce it properly).
+                        My name is Yangshuo Teng and you can call me Yang (because most people cannot pronounce it
+                        properly).
                         I am a third-year undergraduate student at Boston University, pursuing a joint major in
                         <strong>Computer Science</strong> and <strong>Economics</strong>.
                     </StyledParagraph>
