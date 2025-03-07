@@ -37,16 +37,24 @@ const StyledParagraph = styled.p`
     font-size: calc(2px + 2vw);
 `
 
+const StyledImage = styled.img`
+    height: auto;
+    max-width: 60%;
+    margin: 1vh 1vw;
+    transform: scale(1);
+    
+    @media screen and (max-width: 900px) {
+        margin: 1vh auto;}
+`
 
 export default function Home() {
     return (
             <StyledMain>
                 <StyledTitle>Home</StyledTitle>
                 <StyledWrapper>
-                    <img src="/public/Selfie.png"/>
+                    <StyledImage src="/Selfie.png" alt="profile picture for Yangshuo Teng" />
                     <StyledParagraph>
-                        My name is Yangshuo Teng and you can call me Yang (because most people cannot pronounce it
-                        properly).
+                        My name is Yangshuo Teng and you can call me Yang (because most people cannot pronounce it properly).
                         I am a third-year undergraduate student at Boston University, pursuing a joint major in
                         <strong>Computer Science</strong> and <strong>Economics</strong>.
                     </StyledParagraph>
