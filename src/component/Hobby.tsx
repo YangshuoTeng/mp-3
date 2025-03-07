@@ -57,7 +57,7 @@ export default function Hobby() {
                 <StyledImage src="/BBQ.jpeg" alt="BBQ"/>
                 <StyledImage src="/greek meat platter.jpeg" alt="greek meat platter"/>
                 <StyledImage src="/Fish and Chips.jpeg" alt="Fish and Chips"/>
-                <StyledImage src="/Steak.jpeg" alt="Steak"/>
+                <StyledImage src="/Steak.png" alt="Steak"/>
             </StyledWrapper>
         </StyledMain>
     )
